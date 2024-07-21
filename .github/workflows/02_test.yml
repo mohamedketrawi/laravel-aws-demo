@@ -20,8 +20,8 @@ jobs:
         run: |
           ls -la /
           ls -la /home/runner/work
-          ls -la /home/runner/work/laravel_demo
-          ls -la /home/runner/work/laravel_demo/laravel_demo
+          ls -la /home/runner/work/laravel-aws-demo
+          ls -la /home/runner/work/laravel-aws-demo/laravel-aws-demo
 
       - name: Step 4 (whoami)
         run: whoami
