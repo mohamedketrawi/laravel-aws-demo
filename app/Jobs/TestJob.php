@@ -25,6 +25,6 @@ class TestJob implements ShouldQueue
      */
     public function handle(): void
     {
-        \Log::info("test job finished successfully");
+        sleep(15);
     }
 }
